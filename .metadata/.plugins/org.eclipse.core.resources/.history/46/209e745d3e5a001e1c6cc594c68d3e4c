@@ -1,0 +1,14 @@
+package com.giriharan;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MathUtilsTest {
+
+	@Test                   // @Test annotation is used to tell JUnit that this is a test 
+	void test() {
+		System.out.println("This test ran!");
+	}
+
+}

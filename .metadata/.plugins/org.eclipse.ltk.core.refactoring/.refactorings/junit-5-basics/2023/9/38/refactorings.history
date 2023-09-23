@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.giriharan.MathUtilsTest&apos; to &apos;TestAnnotTest&apos;&#x0D;&#x0A;- Original project: &apos;junit-5-basics&apos;&#x0D;&#x0A;- Original element: &apos;com.giriharan.MathUtilsTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.giriharan.TestAnnotTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MathUtilsTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;com.giriharan{MathUtilsTest.java[MathUtilsTest" matchStrategy="1" name="TestAnnotTest" qualified="false" references="true" similarDeclarations="false" stamp="1695493540842" textual="false" version="1.0"/>
+</session>
