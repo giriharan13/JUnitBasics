@@ -454,3 +454,15 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://do
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-09-23 23:45:31.902
 !MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.jboss.tools.usage 2 0 2023-09-24 00:16:56.508
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2023-09-24 00:16:56.509
+!MESSAGE Could not send USER event 'Anonymous ID: 61f11927-09e2-47bf-9b5e-ef42274fefb4': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2023-09-24 00:16:56.509
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2023-09-24 00:16:56.509
+!MESSAGE Could not send ACTION event 'finishWizard': no analytics instance present.

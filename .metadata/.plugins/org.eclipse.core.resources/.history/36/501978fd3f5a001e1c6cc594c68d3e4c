@@ -16,11 +16,5 @@ class TestAnnotTest {
 	{
 		fail("This test failed! :(");   // this test fails 
 	}
-	
-	
-	/* @Test Annotation
-	 * .Marks the method as a test
-	 * .Informs JUnit what methods should run
-	 */
 
 }

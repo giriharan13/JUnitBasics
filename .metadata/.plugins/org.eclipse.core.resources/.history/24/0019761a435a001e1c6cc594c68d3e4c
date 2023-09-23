@@ -1,0 +1,19 @@
+package com.giriharan;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MathUtilsTest {
+
+	@Test
+	void test() {
+		MathUtils mu = new MathUtils();
+		int expected = 2;            // Expected value
+		int actual = mu.add(1, 1);   // Actual value
+		
+		assertEquals(expected,actual);     // Assertions
+		
+	}
+
+}
