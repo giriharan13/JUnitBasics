@@ -61,5 +61,17 @@ class MathUtilsTest3 {
 		System.out.println("This test is disabled");
 	}
 	
+	@Test
+	void testAdd()
+	{
+		assertAll(
+			()-> assertEquals(7,mu.add(5, 2)),
+			()-> assertNotEquals(20,mu.add(10, 2))
+				); 
+		
+		// You can also use assertAll() to test multiple assert statements. 
+		// You should pass the executables that use the respective assert statements
+	}
+	
 	
 }
