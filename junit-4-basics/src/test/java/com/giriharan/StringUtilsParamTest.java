@@ -41,5 +41,4 @@ public class StringUtilsParamTest {
 	public void testAdd() {
 		assertEquals(expected,su.addString(s1, s2));
 	}
-
 }
