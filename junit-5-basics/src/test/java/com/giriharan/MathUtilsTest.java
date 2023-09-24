@@ -50,6 +50,17 @@ class MathUtilsTest {
 	 *     ............
 	 */
 	
+	@Test
+	void testDivide() {
+		MathUtils mu = new MathUtils();
+		assertThrows(ArithmeticException.class, ()->mu.divide(1, 0),"Dividing by zero should throw");
+		
+		//assertThrows() can be used to check if any testcase should thrown an Exception
+		
+	}
+	
+	
+	
 	// visit the junit doc for all the assert methods
 
 }
